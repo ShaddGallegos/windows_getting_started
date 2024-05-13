@@ -4,7 +4,7 @@
 
   tasks:
     - name: Install required software
-      chocolatey.chocolatey.win_chocolatey:
+      win_chocolatey:
       name:
        - 7zip
       state: present
